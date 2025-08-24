@@ -1,7 +1,9 @@
 name: image_crop_bundle
-description: "A new Flutter project."
+description: "A plugin to help you pick images from gallery/camera and crop them with a customizable crop box as per your aspect ratio."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Gourav-sharma/image_cropper
+repository: https://github.com/Gourav-sharma/image_cropper
+issue_tracker: https://github.com/Gourav-sharma/image_cropper/issues
 
 environment:
   sdk: ^3.8.1
