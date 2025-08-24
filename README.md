@@ -1,15 +1,37 @@
 # image_crop_bundle
 
-A new Flutter project.
+# 📸 Flutter Image Cropper Plugin
 
-## Getting Started
+A lightweight Flutter plugin that allows you to **pick images from gallery/camera (via `image_picker`)** and **crop them** with a customizable crop box.
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+This plugin is written in **Dart** (crop logic/UI) and uses **`image_picker`** for selecting images.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✨ Features
+
+- Pick images from **Gallery** or **Camera** using `image_picker`.
+- Interactive crop UI with draggable & resizable crop box.
+- Cropped image returned as `Uint8List`.
+- Pure Dart cropping logic (using `package:image`).
+- Lightweight alternative to `image_cropper`.
+
+---
+
+## Installation
+Add this to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  image_crop_bundle: ^0.0.1
+```
+
+## Usage
+
+### Step 1: Import the Plugin
+```dart
+import 'package:image_crop_bundle/image_crop_bundle.dart';
+
 
